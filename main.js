@@ -1,12 +1,7 @@
-//preloader
-window.onload = function()
-{
-    loadFunction()
-};
-function loadFunction(){
-    const stop = document.getElementById('preloader').style.display = "none";
-    console.log(stop)
-}
+
+setTimeout(function(){
+   document.getElementById('preloader').style.display = "none"
+}, 2000);
 myIcon = document.getElementById('myIcon');
 
 // When the user scrolls down 20px from the top of the document, show the button
@@ -37,20 +32,7 @@ const showMenu = (toggleId, navId) =>{
 }
 
 showMenu('nav-toggle', 'nav-menu');
-// === SECOND ===
-const show = (toggleId, navId) =>{
-    const toggle = document.getElementById(toggleId),
-    nav = document.getElementById(navId)
 
-    if(toggle && nav) {
-        // nav.addEventListener('click', ()=>{
-        //     navLink.classList.toggle('sw')
-        // })
-        toggle.addEventListener('click', ()=>{
-            nav.classList.toggle('sow')
-         } )}
-}
-show('nav-toggle', 'bar')
 // === ACTIVE AND REMOVE MENU ===
 const navLink = document.querySelectorAll('.nav__link')
 

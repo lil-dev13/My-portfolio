@@ -522,6 +522,7 @@ button:hover{
     transition: .5s
 }
 #pop.hello{
+    overflow: hidden;
     visibility: visible;
     opacity: 1;
     transition: .5s;
@@ -631,15 +632,18 @@ button:hover{
   
 }
 
-.work__card img{
+.work__card .work__info img{
     width: 734px;
     height: 300px;
 }
-.work__card:hover{
+.work__card .work__info img:hover{
     transform: scale(0.9);
     transition: .5s;
 }  
-
+.work__card .work__info:hover{
+    transform: scale(0.9);
+    transition: .5s;
+} 
 
 /* .work__card:before{
     content: "";
@@ -1111,7 +1115,7 @@ body.dark .skills__data{
     background: #fff;
 }
 body.dark .l-header{
-    background: rgba(0, 0, 0, 0.582);
+    background: rgba(0, 0, 0, 0.911);
 }
 body.dark .nav__logo{
     color: #fff;
@@ -1127,15 +1131,4 @@ body.dark .nav__link{
 }
 .dark .services__data{
     color: rgba(255, 255, 255, 0.719);
-}
-/* BAR ROTATION */
-.sow{
-    transform: rotate(360deg);
-    background-color: transparent;
-}
-.sow:before{
-    transform: translateY(0) rotate(45deg);
-}
-.sow:after{
-    transform: translateY(0) rotate(-45deg);
 }
