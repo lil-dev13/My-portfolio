@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="portfolio.css">
+   
+
+    <!-- =======BOX ICONS======= -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Segun's portfolio</title>
+    <link rel="shortcut icon" type="image/jpg" href="./img/figma.jpg"/>
+</head>
+<body id="body">
+    <div id="preloader">
+        <div id="preloader-inner"></div>
+    </div>
+    <!-- ======== HEADER ======= -->
+    <header class="l-header" >
+        
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Segun</a>
+            </div>
+        
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active" id="hom">Home</a></li>
+                    <li class="nav__item" ><a href="#about" class="nav__link" id="abou">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link" id="skil">Skills</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link" id="serve">Services</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link" id="wor">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link" id="con">Contact</a></li>
+                    
+                </ul>
+            </div>
+            <div class="toggle-container">
+                <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
+            </div>
+            <div class="nav__toggle" id ="nav-toggle">
+                <div class="bar"id="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main" id = "blur">
+        <!-- === HOME === -->
+        <section class="home bd-grid" id= 'home'>
+            <div class="home__data">
+               <h1 class="home__title">Hi, <br>I am <span class="home_title-color">Segun</span> <br> Front End Dev.</h1>
+               <a href="#contact" class="button">Contact</a>
+            </div>
+
+            <div class="home__social">
+                <a href="#" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
+                <a href="#" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="./img/segu.png" alt="" width= "500px">
+            </div>
+            
+        </section>
+        <img src="./img/up-arrow.png" onclick="topFunction()"  id="myIcon"></i>
+        <!-- === ABOUT === -->
+        <section class="about section" id = "about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="./img/desk.svg" alt="">
+                </div>
+
+             <div>
+                 <h2 class="about__subtitle">I am Segun Ojo</h2>
+                 <p class= "about__text">Hi everyone i'm a secondary student in Kaduna, Nigeria born on 02-03-2007. I started learning to code in 2019 at colab and the experience has been really fun if you love computers I suggest you start learning to code. #codingisfun </p>
+                 
+                </div>
+             
+            </div>
+            
+        </section>
+        <!-- === SKILLS=== -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Professional Skills</h2>
+                    <p class="skills__text">Here I have listed the programming languages/libraries I currently and i'm improving on .</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class= "bx bxl-html5 skills__icon"></i>
+                            <span class="skills__name">HTML</span>
+                        </div>
+
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        
+                        <div class="skills__bar skills__html"></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class= "bx bxl-css3 skills__icon"></i>
+                            <span class="skills__name">CSS</span>
+                        </div>
+
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        
+                        <div class="skills__bar skills__css"></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class= "bx bxl-javascript skills__icon"></i>
+                            <span class="skills__name">JavaScript</span>
+                        </div>
+
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        
+                        <div class="skills__bar skills__js"></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class= "bx bxs-paint skills__icon"></i>
+                            <span class="skills__name">UX/UI</span>
+                        </div>
+
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        
+                        <div class="skills__bar skills__ux"></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-react'></i>
+                            <span class="skills__name">React</span>
+                        </div>
+
+                            <div>
+                                <span class="skills__percentage">20%</span>
+                            </div>
+                        
+                        <div class="skills__bar skills__react"></div>
+                    </div>
+                    
+                </div>
+                <div>
+                    <img src="img/work2.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+        <!-- === SERVICES === -->
+        <section class="services section" id="services">
+            <h2 class="section-title">Services</h2>
+            <div class="services__container bd-grid">
+                <div class="services__data">
+                    <div class="services__img"><img src="./img/web-programming.png" alt=""></div>
+
+                    <h1 class="services__header">Development</h1>
+                    <div class="services__text">The back bone supporting our cutting edge web-design</div>
+                </div>
+                <div class="services__data">
+                    <div class="services__img"><img src="./img/creativity.png" alt=""></div>
+
+                    <h1 class="services__header">UI/UX Design</h1>
+                    <div class="services__text">Intuitive interface with focus on the end users</div>
+                </div>
+                <div class="services__data">
+                    <div class="services__img"><img src="./img/animation.png" alt=""></div>
+
+                    <h1 class="services__header">Animation</h1>
+                    <div class="services__text">Visual effects and graphic motion. Utilized as effective communication tools</div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- === WORK === -->
+        <section class="work section" id="work">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="work__container bd-grid">
+
+                <div class="work__card">
+                    <img src="./img/undraw_Weather_app_re_kcb1.svg" alt="">
+                    <div class="work__info" id="info">
+                        <h1>Weather App</h1>
+                        <p class="p">This an app that gives you current weather information at any time.</p>
+                        <a class="btn" onclick="popup()">Read More</a>
+                        <p>  </p>
+                    </div>
+                </div>
+                
+                <div class="work__card">
+                    <img src="./img/undraw_playing_cards_cywn.svg" alt="">
+                    <div class="work__info">
+                        <h1>Flip cards game</h1>
+                        <p class="p">This is a game that uses cards to test your memory</p>
+                        <a class="btn" onclick="hi()">Read More</a>
+                        <p>  </p>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="./img/face.png" alt="">
+                    <div class="work__info">
+                        <h1>Face Recognition</h1>
+                        <p class="p">This is an app uses an api to detect your face.</p>
+                        <a class="btn" onclick="sup()">Read More</a>
+                        <p>  </p>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="./img/undraw_Taken_re_yn20.svg" alt="">
+                    <div class="work__info">
+                        <h1>Space Invaders</h1>
+                        <p class="p">This is fun game that involves shooting aliens from outer space.</p>                        
+                        <a class="btn" onclick="heyya()">Read More</a>
+                        <p>  </p>
+                    </div>
+                </div>
+                
+                <div class="work__card">
+                    <img src="./img/undraw_newspaper_k72w.svg" alt="">
+                    <div class="work__info">
+                        <h1> Voice controlled news Feed</h1>
+                        <p class="p">This is a web app that gives you current information with the use of your voice.</p>
+                        <a class="btn" onclick="hey()">Read More</a>
+                        <p>  </p>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="./img/snake.svg" alt="">
+                    <div class="work__info">
+                        <h1>Snake Game</h1>
+                        <p class="p">This is a game that has a snake eating bits of food and growing longer.</p>
+                        <a class="btn" onclick="bruh()">Read More</a>
+                        <p>  </p>
+                    </div>
+                </div>
+                
+                <!-- <div class="work__img">
+                    <img src="./img/work2.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="./img/work3.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="./img/work4.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="./img/work5.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="./img/work6.jpg" alt="">
+                </div> -->
+                
+            </div>
+            
+            
+        </section>
+        <!-- === CONTACT === -->
+        <section class="contact section" id= "contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                <h2 class="contact__info">EMAIL</h2>
+                <p>olusegunkd2017@gmail.com</p>
+                <h2 class="contact__info">PHONE</h2>
+                <p>+234 906-5093-518</p>
+                <h2 class="contact__info">ADDRESS</h2>
+                <p>Kaduna, Nigeria.</p>
+                </div>
+                <form id= "form"action="" class="contact__form">
+                    <input type="text" id="name" placeholder="Name" class="contact__input">
+                    <div class="mailBox">
+                    <input type="mail" id="mail" placeholder="email" class="contact__input" onkeyup="validate();">
+                    <span class="indicator"></span>
+                </div>
+                    <textarea name="" id="message" cols="0" rows="10" class="contact__input"></textarea>
+
+                    <input type="button" value="Submit" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+    <div id="pop">
+         <i class='bx bxs-x-circle'></i>
+        <h1>Weather App</h1>
+        <img src="./img/undraw_Weather_app_re_kcb1.svg" alt="">
+            <p class="p">This app was made using HTML, CSS and JavaScript, wth this application you can input any city in the bar above and it tells the current weather. This app is very helpful and easy to navigate.
+            </p>
+            <br>
+           
+            <a class="btn" onclick="popup()">Close</a> 
+    </div>
+    <div id="pop0">
+        <h1>Matching cards game</h1>
+        <img src="./img/undraw_playing_cards_cywn.svg" alt="">
+            <p class="p">Matching game a fun and puzzling game, try to fing the match of each card in the game and you win. It helps to sharpen the memory of children. </p>
+            <br>
+            <a class="btn" onclick="hi()">Close</a>
+    </div>
+    <div id="pop1">
+        <h1>Face Recognition</h1>
+        <img src="./img/face.png" alt="">
+            <p class="p">This is an app uses an api to detect your face, it shows a coordinate ponts on your face and tells your facial expression. In addition it can also approximate the age of the person in the camera.</p>
+            <br>
+            <a class="btn" onclick="sup()">Close</a>
+    </div>
+    <div id="pop2">
+        <h1>Space Invaders</h1>
+        <img src="./img/undraw_Taken_re_yn20.svg" alt="">
+            <p class="p">This is fun game which consists of aliens and a space shooter, the aliens try to shoot the space shooter while the space shooter shoots back.</p>
+            <br>
+            <a class="btn" onclick="heyya()">Close</a>
+    </div>
+    <div id="pop3">
+        <h1>News Feed</h1>
+        <img src="./img/undraw_newspaper_k72w.svg" alt="">
+            <p class="p">I developed this app with use React. This is a news feed app that tells you current around the glode, this app can be controlled with the use of voice commands</p>
+            <br>
+            <a class="btn" onclick="hey()">Close</a>
+            
+    </div>
+    <div id="pop4">
+        <h1>Snake Game</h1>
+        <img src="./img/snake.svg" alt="">
+            <p class="p">This is a game that consists of a snake and tiny bits of food, the aim of the game is to get the snake to eat food and grow longer. The longer the snake the higher your points.</p>
+            <br>
+            <a class="btn" onclick="bruh()">Close</a>
+    </div>
+    
+    <!-- =====FOOTER===== -->
+    <footer class="footer">
+        <p class="footer__title">Made with 💗 by Segun</p>
+      
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+        </div>
+
+         <p>&#169; 2020 copyright all right reserved</p>
+    </footer>
+    
+    <!-- ===== SCROLL REVEAL ===== -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ===== PORTFOLIO JS ===== -->
+    <script src="portfolio.js"></script>
+</body>
+</html>
