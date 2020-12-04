@@ -360,6 +360,7 @@ label:active:after{
 }
 .home__img{
     position: absolute;
+    padding-top: 200px;
     right: 0;
     bottom: 0;
     width: 295px;
@@ -1101,6 +1102,7 @@ body.dark .work__card{
     border: 1px solid #000;
 }
 body.dark .skills__bar{
+    
     position: absolute;
     left: 0;
     bottom: 0;
