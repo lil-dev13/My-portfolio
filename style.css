@@ -342,7 +342,7 @@ label:active:after{
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-5);
 }
-.home_title-color{
+.home__title span{
     color: var(--first-color);
 }
 .home__social{
@@ -787,9 +787,14 @@ form{
     color: #fff;
     margin: 0 var(--mb-2);
 }
-
+.togtit{
+        display: none;
+    }
 /* === MEDIA QUERIES === */
 @media screen and (min-width: 768px){
+    .togtit{
+        display: block;
+    }
     body{
         margin: 0;
     }

@@ -64,16 +64,28 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
             document.getElementById('dev2').src = "./img/animation.png";
         }
     })
+    // Type animation
+    var typed = new Typed(".type", {
+        strings: [
+            'Developer',
+            'Designer',
+            'Student'
+        ],
+        typeSpeed: 60,
+        backSpeed: 60,
+        loop: true
+    });
     //email
     
     document.querySelector(".contact__button").addEventListener("click", function() {
         document.getElementById('message');
         document.getElementById('mail');
-    
+       
 
         if(message.value === ''){
             alert('Fill in the form')
-        }else{
+        }
+        else{
         const nom = document.getElementById('name').value;
         alert("Thank you " + nom + " we'll get back to you.");
     }});
