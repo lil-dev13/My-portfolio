@@ -97,9 +97,7 @@ const sr = ScrollReveal({
     reset: true
 })
 // OVERLAY
-gsap.to(".first", 1.5, {delay: .5, top: "-100%", ease: Expo.easeInOut});
-gsap.to(".second", 1.5, {delay: .7, top: "-100%", ease: Expo.easeInOut});
-gsap.to(".third", 1.5, {delay: .9, top: "-100%", ease: Expo.easeInOut});
+
 // === SCROLL HOME ===
 // sr.reveal('.home__title', {});
 // sr.reveal('.button', {delay: 200});
@@ -110,7 +108,7 @@ gsap.from('.home__img', {opacity: 0, duration: 2, delay: 2, x: 60})
 
 // INFORMATION
 gsap.from('.home', {opacity: 0, duration: 3, delay: 2.3, y: 25})
-gsap.from('.home_data', {opacity: 0, duration: 3, delay: 2.3, y: 25, ease:'expo.out', stagger: .3})
+gsap.from('.home__data', {opacity: 0, duration: 3, delay: 2.3, y: 25, ease:'expo.out', stagger: .3})
 
 // NAV ITEM
 gsap.from('.nav__logo', {opacity:0, duration: 3, delay: 3.2, y: 25, ease:'expo.out'});
