@@ -835,6 +835,7 @@ form{
         align-self: flex-end;
     }
     .home__social-icon{
+
         margin-bottom: 0;
         margin-right: var(--mb-4);
     }
@@ -1091,8 +1092,17 @@ body.dark p{
 body.dark .p{
     color: #000;
 }
+body.dark .togtit{
+    color: #fff;
+    }
 body.dark .home__title{
     color: #fff;
+}
+body.dark .home__social-icon{
+    color: #fff;
+}
+body.dark .home__social-icon:hover{
+    color: var(--first-color);
 }
 body.dark .about__subtitle, .dark .skills__subtitle{
     color: #fff;

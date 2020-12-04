@@ -52,8 +52,17 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
     const checkbox = document.getElementById('switch');
     checkbox.addEventListener('change', () => {
         //change the theme
-        document.body.classList.toggle('dark')
-       
+      
+        document.body.classList.toggle('dark');
+        if(document.body.classList == 'dark'){
+          document.getElementById('dev').src = "./img/web-programming.png";
+          document.getElementById('dev1').src = "./img/creativity1.png";
+          document.getElementById('dev2').src = "./img/animationw.png";
+        }else{
+            document.getElementById('dev').src = "./img/web-programmingb.png";
+            document.getElementById('dev1').src = "./img/creativity.png";
+            document.getElementById('dev2').src = "./img/animation.png";
+        }
     })
     //email
     
