@@ -801,6 +801,9 @@ form{
     font-size: 2rem;
     margin-bottom: var(--mb-4);
 }
+.footer__title span{
+    color: rgb(228, 11, 11);
+}
 .footer__social{
     margin-bottom: var(--mb-4);
 }
