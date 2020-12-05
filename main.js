@@ -1,7 +1,7 @@
 
 setTimeout(function(){
    document.getElementById('preloader').style.display = "none"
-}, 400);
+}, 4000);
 myIcon = document.getElementById('myIcon');
 
 // When the user scrolls down 20px from the top of the document, show the button
