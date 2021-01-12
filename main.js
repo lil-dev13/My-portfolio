@@ -87,7 +87,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
         }
         else{
         const nom = document.getElementById('name').value;
-        alert("Thank you " + nom + " we'll get back to you.");
+        alert("Sorry " + nom + " this section is coming soon...")
     }});
 // === SCROLL REVEAL ANIMATION ===
 const sr = ScrollReveal({

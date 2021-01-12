@@ -852,7 +852,7 @@ form{
     .nav__link{
         color: var(--second-color);
     }
-    .home{
+    .home{                                                                                                                      
         height: 100vh;
     }
     .home__data{
