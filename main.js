@@ -68,7 +68,6 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
     var typed = new Typed(".type", {
         strings: [
             'Developer',
-            'Designer',
             'Student'
         ],
         typeSpeed: 60,
