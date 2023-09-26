@@ -1174,3 +1174,9 @@ body.dark .nav__link{
 .dark .services__data{
     color: rgba(255, 255, 255, 0.719);
 }
+
+
+.btns{
+    display: flex;
+    gap: 20px;
+}
